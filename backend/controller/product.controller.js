@@ -1,5 +1,12 @@
 import { Chicken, Mutton, Fish } from '../model/product.model.js';
 
+const models = {
+  chicken: Chicken,
+  mutton: Mutton,
+  fish: Fish,
+};
+
+
 export const chicken = async (req, res) => {
      try {
 
@@ -67,13 +74,6 @@ export const fish = async (req, res) => {
       
      }
 }
-
-const models = {
-  chicken: Chicken,
-  mutton: Mutton,
-  fish: Fish,
-};
-
 export const addReview = async (req, res) => {
   const { category } = req.params;
   const { productId, username, comment, rating } = req.body;
