@@ -139,7 +139,7 @@ Search Page
 
 Categories Page
 
-![Categories](screenshots/Categories.png)
+![Categories](screenshots/categories.png)
 
 
 
