@@ -133,7 +133,7 @@ Search Page
 
 ![Search](screenshots/search1.png)
 
- Discription Product
+Product Discription
 
 ![Discriptiom](screenshots/about1.png)
 
